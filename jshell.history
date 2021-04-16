@@ -1,0 +1,5 @@
+EXPRESSION#>env
+EXPRESSION#>System.out.println();
+EXPRESSION#>help
+EXPRESSION#>?
+VAR#>String s="foo";
