@@ -150,6 +150,7 @@ public enum ItemHardcodedDatabase {
     UltRogueKnob(ItemType.WHEEL, "Rogue Knob", 5, 1, "+10% to gadgets"),
     UltStingyBandit(ItemType.BODY, "Stingy Bandit", 5, 1, "+10% to weapons"),
     UltStingyKnob(ItemType.WHEEL, "Stingy Knob", 5, 1, "+10% to weapons"),
+    UltRuneOfProtection(ACC, "Rune of Protection", 5, 1, "+10% to bodies"),
     UNKNOWN(ItemType.UNKNOWN, "", 0, 1, "UNKNOWN");
 
     String name = "";
