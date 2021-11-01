@@ -151,10 +151,13 @@ public enum ItemHardcodedDatabase {
     UltStingyBandit(ItemType.BODY, "Stingy Bandit", 5, 1, "+10% to weapons"),
     UltStingyKnob(ItemType.WHEEL, "Stingy Knob", 5, 1, "+10% to weapons"),
     UltRuneOfProtection(ACC, "Rune of Protection", 5, 1, "+10% to bodies"),
-    UltMineLauncher(ItemType.WEAPON, "Cat-mine", 5, 1, "+20% to gadgets"),
+    UltMineLauncher(ItemType.WEAPON, "Cat-Mine", 5, 1, "+20% to gadgets"),
     UltCatDrone(WEAPON, "Cat-Drone",5,1.2,"+15% to weapons"),
+    UltPurrmobile(ItemType.BODY, "Purr-Mobile",5,1,"+10% to weapons"),
+    UltScrambler(ACC, "Scrambler",5,1,"+10% to bodies"),
+    UltBoostTire(ItemType.WHEEL, "Boost Scooter",5,1,"+10% to weapons"),
+    UltBoostKnob(ItemType.WHEEL, "Boost Knob",5,1,"+10% to bodies"),
     UNKNOWN(ItemType.UNKNOWN, "", 0, 1, "UNKNOWN");
-
     String name = "";
     int rarity = 0;
     private double multiplier = 1;
